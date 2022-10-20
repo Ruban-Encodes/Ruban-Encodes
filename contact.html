@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RUBAN ENCODES</title>
+    <link rel="icon" href="assets/title.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div class="title-bar">
+        <a href="index.html" Style="text-decoration:none ;"><img src="assets/head.png"
+                Style="text-decoration:none ;"></a>
+        <section class="nxt-header">
+            <nav>
+                <!-- navigation -->
+                <a href="index.html"><img src="assets/title.ico"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="pricing.html">PRICING</a></li>
+                        <li><a href="https://ruban-encodes.github.io/Prema-Schools/" target="_blank">OUR PROJECTS</a>
+                        </li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars " onclick="showmenu()"></i>
+            </nav>
+            <h1>CONTACT US</h1>
+        </section>
+    </div>
+
+    <!--------contact us------->
+
+    <section class="cont-us">
+        <div class="rows">
+            <div class="contact-col">
+                <i class="fa-sharp fa-solid fa-house"></i>
+                <span>
+                    <h5><a href="index.html"> RUBAN ENCODES </a></h5>
+                    <P>V P SINDHAN NAGAR, VALAYANKADU, TIRUPUR - 641602 </P>
+                </span>
+            </div>
+            <div>
+                <i class='fas fa-comments'></i>
+                <span>
+                    <h5 style="word-spacing: 60px;"><a href="https://t.me/ruban9124">TELEGRAM</a> <a href="https://groups.google.com/g/ruban-encodes-web" target="_blank">GOOGLE-GROUP</a></h5>
+                    <P>MONDAY TO FRIDAY - 10AM TO 4PM</P><br>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHxTdSWTDNDDcxzSmzCNMBgNzgvfPgSHxsxqtjgRxKLBMfWPvNLVgJxhNfQgWsbfFsHphQb"
+                            target="_blank">PRIVATE.RUBAN@GMAIL.COM</a></h5>
+                    <P>EMAIL US YOUR QUERY</P>
+                </span>
+            </div>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.68190971465182!2d77.32388106777168!3d11.120039263744696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907d2245b1fd5%3A0x9112a1a56f70530e!2sRidzy&#39;s%20Official!5e0!3m2!1sen!2sin!4v1666253888639!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--------JAVASCRIPT FOR TOGGLE MENU------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+
+    </script>
+    <section class="footer">
+        <div class="icons">
+            <h4 style="font-size: 13px;">MORE FROM US</h4>
+            <a href="index.html"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/i.ruban_96/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://goo.gl/maps/K1BrMkycxgMgY5s66" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            <a href="https://www.youtube.com/c/RidzysOFFICIAL" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="rights"><i class="fa-regular fa-copyright" style="color: red; "></i> ALL RIGHTS RESERVED
+            <i class="fa-regular fa-copyright" style="color: red; "></i>
+        </p>
+        <a class="made" href="https://t.me/ruban9124" target="_blank">
+            <p style="color: black;"> MADE BY <i class="fa-sharp fa-solid fa-fire" style="color: red;"></i> RUBAN
+                <i class="fa-sharp fa-solid fa-fire" style="color: red;"></i>
+            </p>
+        </a>
+    </section>
